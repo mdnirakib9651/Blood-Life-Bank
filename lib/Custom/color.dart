@@ -58,6 +58,7 @@ class ColorResource{
   static const Color TEXT_BG = Color(0xffF3F9FF);
   static const Color GREEN = Color(0xff23CB60);
   static const Color FLOATING_BTN = Color(0xff7DB6F5);
+  static const Color RED_SHEDO = Color(0xFFE8C1C1);
 
 
 

@@ -26,21 +26,13 @@ class ButtonGridview extends StatelessWidget {
               width: 80,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  border: Border(
-                    bottom: BorderSide(color: ColorResource.COLOR_PRIMARY, width: 2),
-                    top: BorderSide(color: ColorResource.COLOR_PRIMARY, width: 2),
-                    left: BorderSide(color: ColorResource.COLOR_PRIMARY, width: 2),
-                    right: BorderSide(color: ColorResource.COLOR_PRIMARY, width: 2),
-                  )
+                  border: Border.all(color: ColorResource.COLOR_PRIMARY, width: 2)
               ),
               padding: const EdgeInsets.all(10),
               child: image,
             ),
             SizedBox(height: 5,),
-            Container(
-              height: 20,
-              child: Text(title, style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700, color: ColorResource.COLOR_PRIMARY),),
-            )
+            Text(title, style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700, color: ColorResource.COLOR_PRIMARY),)
           ],
         ),
       ),

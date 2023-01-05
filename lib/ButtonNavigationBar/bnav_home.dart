@@ -158,12 +158,7 @@ class _BNavHomeState extends State<BNavHome> {
                 width: MediaQuery.of(context).size.width,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  border: Border(
-                    right: BorderSide(color: ColorResource.COLOR_PRIMARY, width: 2),
-                    top: BorderSide(color: ColorResource.COLOR_PRIMARY, width: 2),
-                    left: BorderSide(color: ColorResource.COLOR_PRIMARY, width: 2),
-                    bottom: BorderSide(color: ColorResource.COLOR_PRIMARY, width: 2),
-                  ),
+                    border: Border.all(color: ColorResource.COLOR_PRIMARY, width: 2),
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: GridView.count(

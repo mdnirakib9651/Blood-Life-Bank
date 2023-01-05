@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708058928252",
+    "project_id": "blood-bank-75e6a",
+    "storage_bucket": "blood-bank-75e6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708058928252:android:7ad4042457818ec089a5f9",
+        "android_client_info": {
+          "package_name": "com.allroundersoft.life_bank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708058928252-olsgbl3029lnht65cjvr9p5ilqbpk0p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Wt63rfqmNcd-AJfxDL2twTVDebao5Xo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708058928252-olsgbl3029lnht65cjvr9p5ilqbpk0p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
